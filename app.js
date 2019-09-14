@@ -4,7 +4,7 @@ const app = express();
 
 var schema = mongoc.Schema({
     date: Date,
-    name: {type:String, default: 'Anonimo'}
+    name: {type:String, default: 'Anónimo'}
     //published: {type: Boolean, default: false}
 });
 var Visitor = mongoc.model('Visitor', schema);
